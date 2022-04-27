@@ -1,0 +1,34 @@
+{
+  "name": "vscode-rust-extension-pack",
+  "displayName": "Rust Extension Pack",
+  "description": "Popular VSCode extensions for Rust development.",
+  "version": "0.1.0",
+  "publisher": "franneck94",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#222222",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Rust"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "repository": {
+    "url": "https://github.com/franneck94/vscode-rust-extension-pack"
+  },
+  "homepage": "https://github.com/franneck94/vscode-rust-extension-pack",
+  "bugs": {
+    "url": "https://github.com/franneck94/vscode-rust-extension-pack/issues"
+  },
+  "extensionPack": [
+    "matklad.rust-analyzer",
+    "serayuzgur.crates",
+    "vadimcn.vscode-lldb",
+    "tamasfe.even-better-toml"
+  ]
+}
