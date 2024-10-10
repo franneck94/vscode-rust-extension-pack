@@ -2,10 +2,10 @@
   "name": "vscode-rust-extension-pack",
   "displayName": "Rust Extension Pack",
   "description": "Popular VSCode extensions for Rust development.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "franneck94",
   "engines": {
-    "vscode": "^1.83.0"
+    "vscode": "^1.94.0"
   },
   "icon": "logo.png",
   "galleryBanner": {
@@ -27,7 +27,7 @@
   },
   "extensionPack": [
     "rust-lang.rust-analyzer",
-    "serayuzgur.crates",
+    "fill-labs.dependi",
     "vadimcn.vscode-lldb",
     "tamasfe.even-better-toml",
     "franneck94.vscode-rust-config"
